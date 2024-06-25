@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #0d1b2a;
+  font-family: "Saira", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+.navback {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  width: 15%;
+  padding: 14px 20px;
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(113, 114, 115, 0.43);
+  max-width: 17vh;
+}
+
+.navback a {
+  font-size: 1.8vh;
+  text-decoration: none;
+  color: #e0e1dd;
+  transition: transform 0.2s;
+}
+.navback a:hover {
+  transform: scale(1.1);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.flexwrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto 20%;
+  min-width: 20vw;
+}
+.name {
+  color: #869cb9;
+  font-size: 3.3vh;
+  width: 40%;
+  text-align: center;
+  min-width: 10vw;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 25vw;
+}
+.content p {
+  color: #e0e1dd;
+  font-size: 2vh;
+  text-align: center;
+  min-width: 10vh;
+}
+.contacts {
+  margin-top: 1vh;
+}
+.contacts img {
+  width: 4vh;
+  height: 4vh;
+  margin: 0 0.5vh;
+  color: #dee2e6;
+}
+.cards {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  min-height: 23vh;
+}
+
+.content-card {
+  background-color: white;
+  width: 30vh;
+  height: 24vh;
+  border-radius: 45px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-right: 1.5vw;
+  transition: transform 0.2s;
+
+  min-width: 30vh;
+}
+.content-card:hover {
+  transform: scale(1.09);
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+.top img {
+  width: 5vh;
+  margin: 1.5vh auto;
+}
+.bottom {
+  font-size: 1.7vh;
+  text-align: center;
+}
+
+.projectTitle {
+  text-align: center;
+  color: #869cb9;
+  font-size: 7vh;
+  margin: 5vh 0;
+}
+
+.top h1 {
+  font-size: 4vh;
+}
+.bottom p {
+  font-size: 2vh;
+  margin: 0 0.4vw;
+}
+
+.navback .selected {
+  font-size: 1.8vh;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s;
+}
+.cards a {
+  text-decoration: none;
+  color: black;
+}
